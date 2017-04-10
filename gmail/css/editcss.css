@@ -1,0 +1,114 @@
+nav{
+	background-color: #DB4437;
+}
+p{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+p.date{
+	display: block;
+	float: right;
+	clear:right;
+	margin-top: -200px; 
+}
+a.brand-logo{
+	margin-left: 70px;
+	font-size: 20px;
+}
+.collection i.material-icons{
+	color: #9E9E9E;
+}
+.collection.help i.material-icons{
+	color: #4285F4;
+	margin-right: 30px;
+}
+.collection.important span i.material-icons{
+	color: #FFFC8B;
+}
+.collection.help a,.collection.setting a{
+	color: #000000;
+}
+.collection.help{
+	margin-bottom: 0px;
+	border-top-width: 0px;
+}
+.content{
+	padding-right: 25px;
+}
+ul.collection.help{
+	border-bottom-width: 0px;
+}
+ul.collection.help .collection-item{
+	color: #7B7B7B;
+}
+.collection .collection-item.avatar .secondary-content{
+	top: 50px;
+}
+ul.collection span.title{
+	font-weight: bold;
+}
+ul.collection p.subject{
+	font-weight: bold;
+}
+.btn-floating{
+	color: #DB4437;
+	background-color: #DB4437;
+	display: block;
+	bottom: 20px;
+	right: 20px;
+	position: fixed;
+}
+label{
+	margin-left: 5px;
+	font-size: 14px;
+	color: #8A8A8A;
+	background-color: #FFFFFF;
+}
+body{
+	background-color: #E5E5E5;
+}
+
+.NoContent img{
+	width: 150px;
+	/*height: 15%;*/
+	display: block;
+    /*position: absolute;*/  
+    /*top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  */
+    margin: auto;
+}
+.NoContent h6{
+	color: #939393;
+	text-align: center;
+	margin: auto;
+}
+.NoContent{
+	margin-top: 200px;
+}
+.card{
+	margin: 0px;
+}
+/*.card-action a{
+	color: #000000;
+}*/
+.row{
+	margin: 0px;
+}
+.collection{
+	margin: 0px;
+}
+
+@media screen and (min-width:1080px) and (max-width:1366px) {
+ body {
+ 	/*background:#cacaca;*/
+ 	width: calc(100% - 300px);
+ 	float: right;
+ }
+ .NoContent{
+ 	/*left: 300;
+ 	float: right;*/
+ }
+}
