@@ -1,3 +1,9 @@
+html{
+	font-family: "Roboto", sans-serif;
+}
+body{
+	background-color: #E5E5E5;
+}
 nav{
 	background-color: #FFFFFF;
 }
@@ -6,13 +12,11 @@ p{
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-
-/*p.date{
-	display: block;
-	float: right;
-	clear:right;
-	margin-top: -200px; 
-}*/
+td{
+	white-space: nowrap; 
+	text-overflow:ellipsis; 
+	overflow: hidden;
+}
 a.brand-logo{
 	margin-left: 70px;
 	font-size: 20px;
@@ -25,9 +29,6 @@ a.brand-logo{
 	color: #4285F4;
 	margin-right: 30px;
 }
-/*.collection.important span i.material-icons{
-	color: #FFFC8B;
-}*/
 .collection.help a,.collection.setting a{
 	color: #000000;
 }
@@ -37,7 +38,7 @@ a.brand-logo{
 	border-top-width: 0px;
 }
 ul.collection.help{
-	border-bottom-width: 0px;
+	border: none;
 }
 ul.collection.help .collection-item{
 	color: #7B7B7B;
@@ -52,15 +53,6 @@ ul.collection.help .collection-item{
 	border-bottom: 0px;
 	border-top: 0px;
 }
-/*.collection .collection-item.avatar .secondary-content{
-	top: 50px;
-}
-ul.collection span.title{
-	font-weight: bold;
-}
-ul.collection p.subject{
-	font-weight: bold;
-}*/
 .btn-floating{
 	color: #DB4437;
 	background-color: #DB4437;
@@ -69,41 +61,12 @@ ul.collection p.subject{
 	right: 20px;
 	position: fixed;
 }
-/*label{
-	margin-left: 5px;
-	font-size: 14px;
-	color: #8A8A8A;
-	background-color: #FFFFFF;
-}*/
-body{
-	background-color: #E5E5E5;
-}
-
-.NoContent img{
-	width: 150px;
-	/*height: 15%;*/
-	display: block;
-    /*position: absolute;*/  
-    /*top: 0;  
-    bottom: 0;  
-    left: 0;  
-    right: 0;  */
-    margin: auto;
-}
-.card{
-	margin: 0px;
-}
-
 .row{
 	margin: 0px;
 }
 .collection{
 	margin: 0px;
 }
-/*input{
-	left: 20px;
-    opacity: 100%;
-}*/
 
 /*Page Month*/
 table.outside-table-month{
@@ -114,6 +77,7 @@ table.outside-table-month td{
     padding-right: 2px;
     padding-top: 3px;
     padding-bottom: 3px;
+    vertical-align: top;
 }
 thead.outside-table-month{
 	color: #828282;
@@ -126,7 +90,6 @@ table.inside-table-month th{
     padding-bottom: 3px;
 }
 table.inside-table-month td{
-	/*overflow ไม่ทำงาน*/
 	overflow: hidden; 
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -140,7 +103,6 @@ table.inside-table-month td{
 tr.new-row-month{
 	height: 100px;
 }
-
 
 /*Page Week*/
 table.outside-table-week{
@@ -168,7 +130,6 @@ th.inside-table-week{
     padding-bottom: 3px;
 }
 td.inside-table-week{
-	/*overflow ไม่ทำงาน*/
 	overflow: hidden; 
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -183,13 +144,8 @@ h4{
 	margin: 5px 5px 5px 2px;
 }
 
-
 /* Page Day*/
-.col.s1.day{
-	padding-left: 0px;
-	padding-right: 0px;
-}
-.col.s11.day-content{
+.col.s10.day-content{
 	padding-left: 0px;
 	padding-right: 0px;
 }
@@ -218,12 +174,10 @@ table.day tbody td{
 h4{
 	margin: 5px 5px 5px 2px;
 }
-
 td.inside-table-week{
 	height: 52px;
 	font-size: 14px;
 }
-
 
 /* Page List*/
 td.inside-table-list.white-text{
@@ -250,9 +204,8 @@ h6{
 	font-size: 14px;
 }
 
-@media screen and (min-width:800px) and (max-width:1366px) {
+@media screen and (min-width:990px) and (max-width:1366px) {
  body {
- 	/*background:#cacaca;*/
  	width: calc(100% - 300px);
  	float: right;
  }

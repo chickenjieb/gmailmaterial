@@ -1,5 +1,12 @@
-nav{
-	background-color: #DB4437;
+html{
+	font-family: "Roboto", sans-serif;
+}
+body{
+	background-color: #E5E5E5;
+}
+span.circle{
+	padding: 12px 15px 12px 15px;
+	font-size: 20px;
 }
 p{
 	overflow: hidden;
@@ -11,6 +18,26 @@ p.date{
 	float: right;
 	clear:right;
 	margin-top: -200px; 
+	color: #6E6E6E;
+}
+p.title{
+	font-weight: 500;
+}
+p.subject{
+	color: #6E6E6E;
+}
+p.content{
+	padding-right: 25px;
+	color: #6E6E6E;
+}
+.collection .collection-item.avatar .secondary-content{
+	top: 50px;
+}
+.collection.important p.title i{
+	color: #FFFC8B;
+}
+nav{
+	background-color: #DB4437;
 }
 a.brand-logo{
 	margin-left: 70px;
@@ -23,9 +50,7 @@ a.brand-logo{
 	color: #4285F4;
 	margin-right: 30px;
 }
-.collection.important span i.material-icons{
-	color: #FFFC8B;
-}
+
 .collection.help a,.collection.setting a{
 	color: #000000;
 }
@@ -33,23 +58,11 @@ a.brand-logo{
 	margin-bottom: 0px;
 	border-top-width: 0px;
 }
-.content{
-	padding-right: 25px;
-}
 ul.collection.help{
 	border-bottom-width: 0px;
 }
 ul.collection.help .collection-item{
 	color: #7B7B7B;
-}
-.collection .collection-item.avatar .secondary-content{
-	top: 50px;
-}
-ul.collection span.title{
-	font-weight: bold;
-}
-ul.collection p.subject{
-	font-weight: bold;
 }
 .btn-floating{
 	color: #DB4437;
@@ -65,19 +78,9 @@ label{
 	color: #8A8A8A;
 	background-color: #FFFFFF;
 }
-body{
-	background-color: #E5E5E5;
-}
-
 .NoContent img{
 	width: 150px;
-	/*height: 15%;*/
 	display: block;
-    /*position: absolute;*/  
-    /*top: 0;  
-    bottom: 0;  
-    left: 0;  
-    right: 0;  */
     margin: auto;
 }
 .NoContent h6{
@@ -91,9 +94,6 @@ body{
 .card{
 	margin: 0px;
 }
-/*.card-action a{
-	color: #000000;
-}*/
 .row{
 	margin: 0px;
 }
@@ -101,14 +101,9 @@ body{
 	margin: 0px;
 }
 
-@media screen and (min-width:1080px) and (max-width:1366px) {
+@media screen and (min-width:990px) and (max-width:1366px) {
  body {
- 	/*background:#cacaca;*/
  	width: calc(100% - 300px);
  	float: right;
- }
- .NoContent{
- 	/*left: 300;
- 	float: right;*/
  }
 }

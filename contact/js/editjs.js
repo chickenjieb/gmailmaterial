@@ -19,3 +19,6 @@ $(document).ready(function() {
   });
 });
 
+function clickOften(){
+  $('#modal-Often').modal('open');
+}
