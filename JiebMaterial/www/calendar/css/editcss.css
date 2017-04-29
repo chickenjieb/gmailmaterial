@@ -1,0 +1,215 @@
+html{
+	font-family: "Roboto", sans-serif;
+}
+body{
+	background-color: #E5E5E5;
+}
+nav{
+	background-color: #FFFFFF;
+}
+p{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+td{
+	white-space: nowrap; 
+	text-overflow:ellipsis; 
+	overflow: hidden;
+}
+a.brand-logo{
+	margin-left: 70px;
+	font-size: 20px;
+	color: #4B4B4B;
+}
+.collection i.material-icons{
+	color: #9E9E9E;
+}
+.collection.help i.material-icons{
+	color: #4285F4;
+	margin-right: 30px;
+}
+.collection.help a,.collection.setting a{
+	color: #000000;
+}
+.collection.help{
+	margin-bottom: 0px;
+	margin-top: 1px;
+	border-top-width: 0px;
+}
+ul.collection.help{
+	border: none;
+}
+ul.collection.help .collection-item{
+	color: #7B7B7B;
+}
+.collection.setting a.collection-item{
+	border-bottom: 0px;
+}
+.collection.setting a.collection-item i.material-icons{
+	margin-right: 20px;
+}
+.collection.setting{
+	border-bottom: 0px;
+	border-top: 0px;
+}
+.btn-floating{
+	color: #DB4437;
+	background-color: #DB4437;
+	display: block;
+	bottom: 20px;
+	right: 20px;
+	position: fixed;
+}
+.row{
+	margin: 0px;
+}
+.collection{
+	margin: 0px;
+}
+
+/*Page Month*/
+table.outside-table-month{
+	table-layout:fixed;
+}
+table.outside-table-month td{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    vertical-align: top;
+}
+thead.outside-table-month{
+	color: #828282;
+}
+table.inside-table-month thead{
+    border-bottom-width: 0px;
+}
+table.inside-table-month th{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+table.inside-table-month td{
+	overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	padding: 3px 3px 3px 3px;
+	margin-left: 5px;
+	margin-right: 5px;
+    border-radius: 3px;
+    background-color: #009688;
+    color: #FFFFFF;
+}
+tr.new-row-month{
+	height: 100px;
+}
+
+/*Page Week*/
+table.outside-table-week{
+	table-layout:fixed;
+}
+table.outside-table-week td{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+thead.outside-table-week{
+	color: #828282;
+	height: 40px;
+}
+.outside-table-week th{
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+table.inside-table-week thead{
+    border-bottom-width: 0px;
+}
+th.inside-table-week{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+td.inside-table-week{
+	overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	padding: 3px 3px 3px 3px;
+    color: #000000;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    font-size: 12px;
+}
+h4{
+	margin: 5px 5px 5px 2px;
+}
+
+/* Page Day*/
+.col.s10.day-content{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+table.day tbody tr, table.day thead tr{
+	border: 1px solid rgba(0, 0, 0, 0);
+	border-top-width: 0px;
+}
+table.day thead th{
+	font-size: 12px; 
+	padding-top: 0px; 
+	padding-bottom: 0px;
+}
+table.day{
+	margin-top: 20px;
+}
+table.day-content tbody td{
+	height: 52px;
+	font-size: 14px;
+}
+table.day tbody td{
+	height: 51px;
+	font-size: 14px;
+}
+
+/* Page 3Day*/
+h4{
+	margin: 5px 5px 5px 2px;
+}
+td.inside-table-week{
+	height: 52px;
+	font-size: 14px;
+}
+
+/* Page List*/
+td.inside-table-list.white-text{
+	height: 35px; 
+	padding-top: 5px; 
+	padding-bottom: 5px;'
+}
+td.outside-table-list-header{
+	width:8%; 
+	padding: 0px 5px 0px 5px;
+}
+
+/* Others */
+h5{
+	margin-top :0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	font-size: 18px;
+	float: left;
+}
+h6{
+	margin-top: 10px;
+	float: left;
+	font-size: 14px;
+}
+
+@media screen and (min-width:990px) and (max-width:1366px) {
+ body {
+ 	width: calc(100% - 300px);
+ 	float: right;
+ }
+ h4{
+ 	height: 35px;
+ }
+}

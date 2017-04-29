@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Import Google Icon Font-->
+	    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	    <!--Import materialize.css-->
+	    <link type="text/css" rel="stylesheet" href="gmail/css/materialize.min.css"  media="screen,projection"/>
+	    <!--Let browser know website is optimized for mobile-->
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>      
+
+		<title>All App</title>
+
+		<style>
+			nav{
+				background-color: #292446;
+			}
+			body{
+				background-image: url('pic/wallpaper.png');
+				background-repeat: no-repeat;
+			}
+			body a.waves-effect.waves-light.btn{
+				margin-top: 30px;
+				display: inline-block;
+				width: 300px;
+				text-align: center;
+				position: relative;
+				right: 0;
+				background-color: #7b1fa2;
+			}
+		</style>
+		<nav>
+	    	<div class="nav-wrapper">
+	    		<a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+		      	<a href="#" class="brand-logo"><i class="material-icons left">cloud</i>All App</a>
+		      	
+		      	<ul class="side-nav" id="mobile-demo">
+					<li><a href="gmail/index.html"><i class="material-icons left">cloud</i>G-mail</a></li>
+				    <li><a href="calendar/List.html"><i class="material-icons left">cloud</i>Google Calendar</a></li>
+				    <li><a href="contact/index.html"><i class="material-icons left">cloud</i>Google Contacts</a></li>
+		      </ul>
+	    	</div>
+	  	</nav>
+	</head>
+	<body>
+		<div class="container center">
+			<div class="row">
+				<div class="col s12 right-align">
+					<a href="gmail/index.html" class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>G-mail</a><br>
+					<a href="calendar/List.html" class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Google Calendar</a><br>
+					<a href="contact/index.html" class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Google Contacts</a>
+				</div>
+			</div>
+		</div>
+
+	    <!--Import jQuery before materialize.js-->
+	    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	    <script type="text/javascript" src="gmail/js/materialize.min.js"></script>
+	    <script type="text/javascript" src="gmail/js/editjs.js"></script>
+	</body>
+</html>
