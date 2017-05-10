@@ -47,7 +47,8 @@
 				<div class="col s12 right-align">
 					<a href="gmail/index.html" class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>G-mail</a><br>
 					<a href="calendar/List.html" class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Google Calendar</a><br>
-					<a href="contact/index.html" class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Google Contacts</a>
+					<a href="contact/index.html" class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Google Contacts</a><br>
+					<a href="" class="waves-effect waves-light btn pink" onclick="CheckError()"><i class="material-icons left">error</i>Check error</a>
 				</div>
 			</div>
 		</div>
@@ -56,5 +57,11 @@
 	    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	    <script type="text/javascript" src="gmail/js/materialize.min.js"></script>
 	    <script type="text/javascript" src="gmail/js/editjs.js"></script>
+	    <script>
+	    	function CheckError(){
+	    		var num = "eiei";
+	    		window.alert(num/0);
+	    	}
+	    </script>
 	</body>
 </html>
